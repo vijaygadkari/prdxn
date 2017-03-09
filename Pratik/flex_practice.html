@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>FLEX BOX</title>
+  <style type="text/css">
+
+  body { background: #111; }
+
+  .wrapper {
+  margin:0 auto;
+  /*position: relative;*/
+  background-color: #eee;
+  width:986px;
+  }
+
+  .area {
+    /*background: #ccc;*/
+    margin: 25px;
+    padding: 10px;
+    min-height: 550px;
+  }
+
+  .parent {
+
+    padding: 10px;
+    display: flex;
+    flex-direction:row;
+    background: #ccc;
+    list-style-type: none;
+    align-items:stretch;
+  }
+
+  .child {
+    background: tomato;
+
+   flex-basis:150px;
+    margin: 0 5px;
+
+    padding:.6em;
+    line-height: 150px;
+    font-size: 5em;
+    font-family: cursive;
+    color: #fff;
+    text-align: center;
+  }
+
+
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <section class="area">
+      <ul class="parent">
+        <li class="child child1">1</li>
+        <li class="child child2">2</li>
+        <li class="child child3">3</li>
+        <li class="child child4">4</li>
+
+      </ul>
+    </section>
+  </div>
+
+</body>
+</html>

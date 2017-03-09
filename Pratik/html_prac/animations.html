@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Animation Practice </title>
+  <style type="text/css">
+  body {
+    margin:0;
+  }
+  .container {
+    margin:0;
+    min-height: 900px;
+    background-color: #eee;
+  }
+
+  .wrapper {
+    outline: 1px solid red;
+    /*background-color: #fff;*/
+    width: 980px;
+    margin: 0 auto;
+    padding: 15px;
+  }
+
+  .transitions {
+    background-color: #fff;
+    /*min-height: 500px;*/
+    margin: 15px auto;
+    padding: 10px;
+  }
+
+  .parent {
+    height: 150px;
+    width: 150px;
+    background: #ddd;
+    position: relative;
+    border: 10px solid #aaa;
+    color:#ddd;
+    font-size: 5em;
+    line-height: 2em;
+    text-align: center;
+    transition: color .300s ease-in-out .400s;
+  }
+
+  .child {
+
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: 0;
+    color:#fff;
+    background-color: pink;
+    transition: transform .6s cubic-bezier(0.89, 0.29, 0.39, 2.35);
+    pointer-events:none;
+  }
+
+  .parent:hover .child{
+    transform:translate(150px,150px) rotate(320deg);
+  }
+  .parent:hover {
+    color: #333;
+  }
+
+  .parent_heart {
+    position: relative;
+    width: 100px;
+    height: 90px;
+     animation:pulse 1s infinite;
+}
+.parent_heart:hover .before{
+
+}
+.parent_heart:hover .after{
+
+}
+@keyframes pulse{
+0%{ 
+  /*background-color: red;*/
+}
+33%{
+  transform:scale(1.2); 
+  opacity: 0.6;
+ 
+
+}
+
+100%{
+/*background-color:red;*/
+}
+
+}
+
+.before,
+.after {
+    position: absolute;
+    content: "";
+    left: 50px;
+    top: 0;
+    width: 50px;
+    height: 80px;
+    background: red;
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+    border-radius: 50px 50px 0 0;
+   
+}
+.after {
+    left: 0;
+    transform: rotate(45deg);
+    transform-origin :100% 100%;
+}
+
+.box{
+display: inline-flex;
+height: 50px;
+font-size: 1.5em;
+overflow: hidden;
+
+  }
+  .box span {
+        align-self: center;
+  }
+  ul{
+    padding-left: 10px;
+    margin: 0;
+    text-align: left;
+    /* padding: 15px; */
+    animation: move 3s linear infinite;
+    list-style-type: none;
+  }
+  li{
+    line-height: 1.5em;
+    font-size: 1.5em;
+    
+  }
+@keyframes move
+{
+  0%{
+  margin-top: -5px;
+  }
+  20%{
+  margin-top: -5px;
+  }
+  25%{
+    margin-top: -60px;
+  }
+  50%{
+    margin-top: -60px;
+  }
+   55%{
+    margin-top: -115px;
+  }
+   75%{
+    margin-top: -115px;
+  }
+  80%{
+    margin-top:-170px;
+  }
+  95%{
+    margin-top:-170px;
+  }
+
+}
+
+  </style>
+
+</head>
+<body>
+  <div class="container">
+    <div class="wrapper">
+      <section class="transitions">
+        <div class="parent">
+        1
+          <div class="child"></div>
+        </div>
+      </section>
+
+     <section class="transitions">
+        <div class="parent_heart">
+        <div class="before"></div>
+        <div class="after"></div>
+        </div>
+      </section>
+
+         <section class="transitions" style="text-align: center;background:tomato;color:#fff">
+        <div class="box">
+          <span>HELLO</span>
+        <ul>
+        
+       <li> SUN </li>
+       <li> MOON </li>
+       <li> EARTH </li>
+       <li> YOU </li>
+
+        </ul>
+        </div>
+      </section>
+    </div>
+  </div>
+</body>
+</html>

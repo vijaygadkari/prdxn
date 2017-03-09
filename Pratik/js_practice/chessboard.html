@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+<style type="text/css">
+table{
+  width: 270px;
+  margin: 50px auto;
+  background-color: #eee;
+}
+td{ height: 30px; }
+
+td.black{ background-color: #000; }
+
+td.white{ background-color: #fff; }
+</style>
+</head>
+<body>
+<table id ="table" class="board">
+
+</table>
+
+<script type="text/javascript">
+var i,j;
+var table = document.getElementById('table');
+for(i=0;i<8;i++){
+    var tr = document.createElement("tr");
+    table.appendChild(tr);
+    for(j=0;j<8;j++){
+      var td = document.createElement("TD");
+      table.children[i].appendChild(td);
+      if(j%2==i%2)td.className="white";
+      else td.className="black";
+  }
+}
+</script>
+</body>
+</html>

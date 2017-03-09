@@ -1,0 +1,166 @@
+<!-- <!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery UI Accordion - Default functionality</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.css">
+  <link rel="stylesheet" href="style.css">
+   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+$( "#accordion" ).accordion({
+  animate: 300,
+  heightStyle: "content",
+  icons: { "header": "ui-icon-plus", "activeHeader": "ui-icon-minus" }
+});
+  } );
+  </script>
+</head>
+<body>
+<div id="accordion">
+  <h3>Section 1</h3>
+  <div>
+    <p>
+    Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+    ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+    amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+    odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+    </p>
+  </div>
+  <h3>Section 2</h3>
+  <div>
+    <p>
+    Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+    purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+    velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+    suscipit faucibus urna.
+    </p>
+  </div>
+  <h3>Section 3</h3>
+  <div>
+    <p>
+    Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+    Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+    ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+    lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+    </p>
+    <ul>
+      <li>List item one</li>
+      <li>List item two</li>
+      <li>List item three</li>
+    </ul>
+  </div>
+  <h3>Section 4</h3>
+  <div>
+    <p>
+    Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+    et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+    faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+    mauris vel est.
+    </p>
+    <p>
+    Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+    Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+    inceptos himenaeos.
+    </p>
+  </div>
+</div>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <style type="text/css">
+ li{list-style-type: none;}
+
+ ul{
+  margin:0;
+  padding: 0;
+ }
+
+  div{
+    padding: 5px 10px;
+    background-color: tomato;
+  }
+  #accordion{
+    width:600px;
+    margin: 0 auto;
+  }
+  #accordion ul{
+    display: none;
+    background-color: #ccc;
+  }
+
+  #accordion ul li:not(:last-child){ border-bottom: 1px solid #333; }
+
+  #accordion ul li{ padding: 3px 10px; }
+
+  #accordion ul li a{
+    color:#333;
+    text-decoration: none;
+  }
+  i{
+    height: 10px;
+    width: 10px;
+    float: right;
+  }
+  .plus{
+  }
+  </style>
+  </head>
+<body>
+  <ul id="accordion">
+    <li><div>Sports<i></i></div>
+      <ul>
+        <li><a href="#">Golf</a></li>
+        <li><a href="#">Cricket</a></li>
+        <li><a href="#">Football</a></li>
+      </ul>
+    </li>
+    <li><div>Technology<i></i></div>
+      <ul>
+        <li><a href="#">iPhone</a></li>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Twitter</a></li>
+      </ul>
+    </li>
+    <li><div>Latest<i></i></div>
+      <ul>
+        <li><a href="#">Obama</a></li>
+        <li><a href="#">Iran Election</a></li>
+        <li><a href="#">Health Care</a></li>
+      </ul>
+    </li>
+  </ul>
+<script src="assets/vendors/jquery-1.8.3.min.js"></script>
+  <script type="text/javascript">
+$(document).ready(function(){
+
+
+  $('#accordion > li > div').eq(0).find('i').text('-');
+  $('#accordion > li > div:gt(0)').find('i').text('+');
+  $('#accordion ul').eq(0).show();
+ // console.log(a);
+  $('#accordion > li > div').click(function(){
+    console.log($(this).next().is(':visible'));
+
+    if(false==$(this).next().is(':visible')){
+      $('#accordian ul').slideUp(300);
+      $(this).find('i').text('-');
+    }
+
+    if(true==$(this).next().is(':visible')){
+      $(this).find('i').text('+');
+    }
+
+    $(this).next().slideToggle(300);
+  });
+});
+
+  </script>
+</body>
+</html>

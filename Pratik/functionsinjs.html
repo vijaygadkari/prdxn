@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+
+<style type="text/css">
+  .row{
+    margin: 0 0 4% 3%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+  }
+  .calc_button{
+    height: 50px;
+    width: 50px;
+  }
+  .calculator{
+    max-width: 220px;
+    margin: 50px auto;
+  }
+  #dis{
+    width: 100%;
+    max-width: 91%;
+    padding: 10px;
+    margin-bottom: 5%;
+    font-size: 24px;
+  }
+  .objects{
+    box-sizing: border-box;
+    width: 500px;
+    min-height: 400px;
+    padding: 10%;
+    margin:0 auto;
+    background:tomato;
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+  }
+
+</style>
+</head>
+<body>
+<div class="calculator">
+  <form method="get" action="">
+    <div class="display">
+      <input type="text" id="dis" readonly maxlength="10">
+    </div>
+    <div class="row">
+      <button type="button" class="calc_button" onclick="clr()">CE</button>
+      <button type="button" class="calc_button" onclick="display(this.value)" value="/">/</button>
+      <button type="button" class="calc_button" onclick="display(this.value)" value="*">*</button>
+      <button type="button" class="calc_button" onclick="display(this.value)" value="-">-</button>
+      <button type="button" class="calc_button" onclick="display(this.value)" value="+">+</button>
+    </div>
+    <div class="row">
+      <button type="button" class="calc_button" onclick="display(this.value)" value="6">6</button>
+      <button type="button" class="calc_button" onclick="display(this.value)" value="7">7</button>
+      <button type="button" class="calc_button" onclick="display(this.value)" value="8">8</button>
+      <button type="button" class="calc_button" onclick="display(this.value)" value="9">9</button>
+    </div>
+    <div class="row">
+      <button type="button" class="calc_button" onclick="display(this.value)" value="2">2</button>
+      <button type="button" class="calc_button" onclick="display(this.value)" value="3">3</button>
+      <button type="button" class="calc_button" onclick="display(this.value)" value="4">4</button>
+      <button type="button" class="calc_button" onclick="display(this.value)" value="5">5</button>
+    </div>
+    <div class="row">
+      <button type="button" class="calc_button" onclick="display(this.value)" value=".">.</button>
+      <button type="button" class="calc_button" onclick="display(this.value)" value="0">0</button>
+      <button type="button" class="calc_button" onclick="display(this.value)" value="1">1</button>
+      <button type="button" class="calc_button" onclick="cal()">=</button>
+    </div>
+  </form>
+</div>
+
+<div class="objects">
+  <p id="result"></p>
+</div>
+
+<script type="text/javascript" src="js/functions.js"></script>
+</body>
+</html>

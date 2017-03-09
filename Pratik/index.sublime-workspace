@@ -1,0 +1,1212 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"TA",
+				"ta-r	text-align: right;"
+			],
+			[
+				"fl",
+				"flex"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"fon",
+				"font	(index.html)"
+			],
+			[
+				"bg",
+				"bgsz	background-size"
+			],
+			[
+				"Bhaga",
+				"Bhagaskara"
+			],
+			[
+				"im",
+				"images"
+			],
+			[
+				"titl",
+				"title"
+			],
+			[
+				"ta",
+				"teamhead.png	w:297 h:114"
+			],
+			[
+				"a",
+				"abouthead.png	w:271 h:114"
+			],
+			[
+				"bha",
+				"Bhagaskara1.png	w:161 h:38"
+			],
+			[
+				"b",
+				"blog.png	w:167 h:181"
+			],
+			[
+				"s",
+				"service.png	w:167 h:181"
+			],
+			[
+				"img",
+				"images/"
+			],
+			[
+				"la",
+				"Layer20.png	w:1300 h:566"
+			],
+			[
+				"ima",
+				"images/"
+			],
+			[
+				"cus",
+				"customvariables	(app.scss)"
+			],
+			[
+				"_",
+				"_customvariables.scss"
+			],
+			[
+				"al",
+				"alt	Attr"
+			],
+			[
+				"nav",
+				"navbar"
+			],
+			[
+				"lis",
+				"list-d	list-style-type: disc;"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"f",
+				"flex"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"e",
+				"Ellipse4.png	w:14 h:14"
+			],
+			[
+				"jus",
+				"justify"
+			],
+			[
+				"lay",
+				"Layer32.png	w:1300 h:499"
+			],
+			[
+				"y",
+				"YEBO-Logo.png	w:55 h:36"
+			],
+			[
+				"tit",
+				"title"
+			],
+			[
+				"mav",
+				"mavic"
+			],
+			[
+				"i",
+				"Icon (1).png	w:41 h:30"
+			],
+			[
+				"bi",
+				"Bicycle-logo.png	w:113 h:118"
+			],
+			[
+				"ic",
+				"Icon.png	w:52 h:43"
+			],
+			[
+				"Im",
+				"Img.jpg	w:1600 h:800"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"ine",
+				"inline-block"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"out",
+				"outline"
+			],
+			[
+				"col",
+				"column"
+			],
+			[
+				"fd",
+				"fxd	flex-direction"
+			],
+			[
+				"lin",
+				"line-height"
+			],
+			[
+				"ma",
+				"max-width"
+			],
+			[
+				"url",
+				"url()"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"tex",
+				"text-indent"
+			],
+			[
+				"fa",
+				"fa-apple.png	w:20 h:25"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"fow",
+				"forwards"
+			],
+			[
+				"animation-",
+				"animation-direction: 〔property〕"
+			],
+			[
+				"anima",
+				"animation-duration: 〔property〕"
+			],
+			[
+				"ca",
+				"car1.png	w:261 h:151"
+			],
+			[
+				"c",
+				"car.jpg	w:260 h:150"
+			],
+			[
+				"fro",
+				"forwards"
+			],
+			[
+				"bor",
+				"border-box〔value〕"
+			],
+			[
+				"box-s",
+				"box-sizing: 〔property〕"
+			],
+			[
+				"MARGIN",
+				"margin"
+			],
+			[
+				"animate",
+				"animation: 〔property〕"
+			],
+			[
+				"tra",
+				"translate"
+			],
+			[
+				"PO",
+				"pos-r	position: relative;"
+			],
+			[
+				"POS",
+				"pos-a	position: absolute;"
+			],
+			[
+				"form",
+				"form.png	w:438 h:438"
+			],
+			[
+				"cur",
+				"cursive"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"ba",
+				"bag.png	w:52 h:50"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"page",
+				"page.css"
+			],
+			[
+				"onc",
+				"onclick	Attr"
+			],
+			[
+				"re",
+				"required=〔attribute〕"
+			],
+			[
+				"sub",
+				"submit	(style.css)"
+			],
+			[
+				"ac",
+				"action	Attr"
+			],
+			[
+				"nor",
+				"no-repeat〔value〕"
+			],
+			[
+				"we",
+				"webkit"
+			],
+			[
+				"BN",
+				"bd-n	border: none;"
+			],
+			[
+				"word",
+				"word-spacing"
+			],
+			[
+				"ws",
+				"word-spacing"
+			],
+			[
+				"U",
+				"uppercase"
+			],
+			[
+				"PA",
+				"padding"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"count",
+				"count_5"
+			],
+			[
+				"FON",
+				"font-size"
+			],
+			[
+				"bgr",
+				"bgr-n	background-repeat: no-repeat;"
+			],
+			[
+				"ass",
+				"assets	(index.html)"
+			],
+			[
+				"l",
+				"Logo (1).png	w:64 h:55"
+			],
+			[
+				"lstn",
+				"list-n	list-style-type: none;"
+			],
+			[
+				"tac",
+				"ta-c	text-align: center;"
+			],
+			[
+				"mw",
+				"max-width"
+			],
+			[
+				"ge",
+				"get_in_touch"
+			],
+			[
+				"anim",
+				"animation"
+			],
+			[
+				"transi",
+				"transition"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"p",
+				"padding"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"fxd",
+				"fxd-c	flex-direction: column;"
+			],
+			[
+				"lst-n",
+				"list-n	list-style-type: none;"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"dip",
+				"display"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"ov",
+				"overflow"
+			],
+			[
+				"ha",
+				"hamicon"
+			],
+			[
+				"co",
+				"cover"
+			],
+			[
+				"BOA",
+				"BOATS"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"border-r",
+				"border-radius"
+			],
+			[
+				"m",
+				"margin-top"
+			],
+			[
+				"technologies_",
+				"technologies_title"
+			],
+			[
+				"tec",
+				"technologies"
+			],
+			[
+				"_S",
+				"$_SESSION〔variable〕"
+			],
+			[
+				"unse",
+				"unset〔keyword〕"
+			],
+			[
+				"sess",
+				"session_destroy〔function〕"
+			],
+			[
+				"json_",
+				"json_encode〔function〕"
+			],
+			[
+				"jso",
+				"json_encode〔function〕"
+			],
+			[
+				"referra",
+				"referral	(referrals.php)"
+			],
+			[
+				"var",
+				"variable"
+			],
+			[
+				"tes",
+				"testimonials"
+			],
+			[
+				"ref",
+				"ref_email"
+			],
+			[
+				"var_",
+				"var_dump〔function〕"
+			],
+			[
+				"refer",
+				"referred_by"
+			],
+			[
+				"data",
+				"database	(script.js)"
+			],
+			[
+				"get_tem",
+				"get_template_directory_uri	(header.php)"
+			],
+			[
+				"pre",
+				"preventDefault"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"get_the_",
+				"get_the_content"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 172.0,
+		"last_filter": "Package Control: inst",
+		"selected_items":
+		[
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"con",
+				"Convert Case: Lower Case"
+			],
+			[
+				"Package Controlins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"VIEW",
+				"View: Toggle Menu"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"csslint",
+				"Preferences: SublimeLinter Settings – Default"
+			],
+			[
+				"sublimelinter",
+				"Preferences: SublimeLinter Settings – Default"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"js",
+				"JSHint"
+			],
+			[
+				"jsh",
+				"JSHint"
+			],
+			[
+				"rei",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"auto",
+				"Autoprefix CSS"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 489.0
+	},
+	"console":
+	{
+		"height": 174.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/prdxn45/Desktop/test_5/assets/sass/style.scss",
+		"/home/prdxn45/Desktop/test_5/assets/sass/_variables.scss",
+		"/home/prdxn45/Desktop/test_5/assets/sass/_customstyles.scss",
+		"/home/prdxn45/Desktop/test_5/assets/sass/_reset.scss",
+		"/home/prdxn45/Desktop/Bhagaskara/bhagaskara/assets/stylesheets/style.css",
+		"/home/prdxn45/Desktop/Bhagaskara/bhagaskara/assets/sass/_customstyles.scss",
+		"/var/www/html/Pratik/taskemvsrem.html",
+		"/home/prdxn45/Desktop/test_5/index.html",
+		"/home/prdxn45/Desktop/pract/assets/images/week_5_test/index.html",
+		"/home/prdxn45/Desktop/pract/assets/images/week_5_test/assets/sass/_fonts.scss",
+		"/home/prdxn45/Desktop/test_5/assets/stylesheets/style.css",
+		"/var/www/html/Pratik/TEST_3/index.html",
+		"/home/prdxn45/Desktop/bootstrap-sass/sass/app.scss",
+		"/home/prdxn45/Desktop/bootstrap-sass/sass/_customstyle.scss",
+		"/home/prdxn45/Desktop/bootstrap-sass/sass/_customvariables.scss",
+		"/home/prdxn45/Desktop/bootstrap-sass/index.html",
+		"/home/prdxn45/Desktop/bootstrap-sass/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_variables.scss",
+		"/home/prdxn45/Desktop/bootstrap-sass/stylesheets/app.css",
+		"/home/prdxn45/Desktop/bootstrap-sass/css/app.css",
+		"/home/prdxn45/test-1/sass/screen.scss",
+		"/home/prdxn45/test-1/dynamic.html",
+		"/var/www/html/Pratik/centering_menu.html",
+		"/var/www/html/Pratik/assets/css/res.css",
+		"/home/prdxn45/Desktop/repo/index.html",
+		"/home/prdxn45/Desktop/sass-test/output.css",
+		"/home/prdxn45/Desktop/sass-test/input.scss",
+		"/home/prdxn45/Desktop/html_prac/responsive.html",
+		"/home/prdxn45/Desktop/html_prac/assets/css/xyz.css",
+		"/home/prdxn45/Desktop/html_prac/float.html",
+		"/var/www/html/Pratik/html_prac/responsive.html",
+		"/var/www/html/Pratik/html_prac/assets/css/xyz.css",
+		"/var/www/html/Pratik/TEST_3/assets/css/style.css",
+		"/home/prdxn45/Desktop/TEST_2/index.html",
+		"/home/prdxn45/Desktop/html_prac/flex_practice.html",
+		"/home/prdxn45/Desktop/html_prac/assets/css/page.css",
+		"/home/prdxn45/Desktop/html_prac/pagelayout.html",
+		"/home/prdxn45/Desktop/html_prac/page_layout.html",
+		"/var/www/html/test/test1/prdxn-dev-framework-master/assets/css/style.css",
+		"/home/prdxn45/Desktop/html_prac/mar_pad.html",
+		"/home/prdxn45/Desktop/html_prac/mail.html",
+		"/home/prdxn45/Desktop/html_prac/assets/css/style.css",
+		"/home/prdxn45/Desktop/html_prac/test.html",
+		"/home/prdxn45/Desktop/html_prac/banner.html",
+		"/home/prdxn45/.bashrc",
+		"/var/www/html/test/test1/prdxn-dev-framework-master/index.html",
+		"/home/prdxn45/Desktop/html_prac/abc.html",
+		"/home/prdxn45/.config/sublime-text-3/Packages/User/SublimeLinter.sublime-settings",
+		"/var/www/html/test/pratikjprdxn-test1-468253a26807/prdxn-dev-framework-master/index.html",
+		"/var/www/html/test/pratikjprdxn-test1-468253a26807/prdxn-dev-framework-master/assets/css/style.css",
+		"/home/prdxn45/Downloads/prdxn-dev-framework-master/assets/css/style.css",
+		"/home/prdxn45/Downloads/prdxn-dev-framework-master/index.html",
+		"/home/prdxn45/Desktop/html_prac/index.html",
+		"/home/prdxn45/Desktop/html_prac/accordian.html",
+		"/home/prdxn45/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/prdxn45/Desktop/html_prac/commentedcode",
+		"/var/www/html/prdxn-rebuild/wp-config.php",
+		"/var/www/html/Bhagyashree_machine_round/test.html",
+		"/var/www/html/Bhagyashree_machine_round/css/style.css",
+		"/var/www/html/prdxn-rebuild/wp-content/themes/prdxn_rebuild/home.php",
+		"/var/www/html/rebuild-prdxn/wp-content/themes/prdxnrebuild/theme-core/seemore_ajax_functionality/class-seemore.php",
+		"/var/www/html/prdxn-rebuild/wp-content/themes/prdxn_rebuild/workpage-loadmore.php",
+		"/var/www/html/prdxn-rebuild/wp-content/themes/prdxn_rebuild/functions.php",
+		"/var/www/html/rebuild-prdxn/wp-content/themes/prdxnrebuild/functions.php",
+		"/var/www/html/rebuild-prdxn/wp-content/themes/prdxnrebuild/theme-core/seemore_ajax_functionality/implement-seemore-ajax-class.php",
+		"/var/www/html/rebuild-prdxn/wp-content/themes/prdxnrebuild/work.php",
+		"/var/www/html/rebuild-prdxn/wp-content/themes/prdxnrebuild/home.php",
+		"/var/www/html/prdxn-rebuild/wp-content/themes/prdxn_rebuild/assets/js/script.js",
+		"/var/www/html/uptown_stories/wp-content/themes/alone_child/assets/js/script-original.js",
+		"/var/www/html/uptown_stories/wp-content/themes/alone_child/assets/js/script11.js",
+		"/var/www/html/prdxn-rebuild/wp-content/themes/prdxn_rebuild/style.css.map",
+		"/var/www/html/prdxn-rebuild/.htaccess",
+		"/var/www/html/traction_LP/wp-content/themes/traction/referrals.php",
+		"/var/www/html/prdxn-rebuild/.gitignore",
+		"/var/www/html/traction_LP/wp-content/themes/traction/assets/js/script.js",
+		"/var/www/html/prdxn-rebuild/wp-content/themes/prdxn_rebuild/services.php",
+		"/var/www/html/prdxn-rebuild/wp-content/themes/prdxn_rebuild/careers.php",
+		"/var/www/html/prdxn-rebuild/wp-content/themes/prdxn_rebuild/simple_job_board/single-jobpost.php",
+		"/var/www/html/copy of magic_reimagined/.gitignore",
+		"/var/www/html/traction_LP/wp-includes/general-template.php",
+		"/var/www/html/traction_LP/wp-content/themes/traction/functions.php",
+		"/var/www/html/traction_LP/wp-content/themes/traction/header.php",
+		"/var/www/html/traction_LP/wp-config.php",
+		"/var/www/html/traction_LP/wp-content/themes/traction/database/data_insertion.php",
+		"/var/www/html/Traction-LP/wp-config-sample.php",
+		"/var/www/html/prdxn-rebuild/wp-content/themes/prdxn_rebuild/header.php",
+		"/var/www/html/traction_LP/wp-content/plugins/show-data/ajax.php",
+		"/var/www/html/traction_LP/wp-content/plugins/show-data/show-data.php",
+		"/var/www/html/php/login-regform/database/registration-backend.php",
+		"/home/prdxn45/Downloads/traction (1).sql",
+		"/var/www/html/Traction-LP/wp-content/themes/traction/header.php",
+		"/var/www/html/Traction-LP/wp-includes/general-template.php",
+		"/var/www/html/traction_LP/wp-content/themes/traction/style.css",
+		"/var/www/html/traction_LP/wp-content/themes/traction/style11.css",
+		"/var/www/html/traction_LP/wp-content/themes/traction/test.php",
+		"/var/www/html/traction_LP/wp-content/themes/traction/front-page11.php",
+		"/var/www/html/traction_LP/wp-content/themes/traction/front-page.php",
+		"/var/www/html/traction_LP/wp-content/themes/traction/README.txt",
+		"/var/www/html/traction_LP/wp-content/themes/traction/assets/css/colors-dark.css",
+		"/var/www/html/traction_LP/wp-content/themes/traction/assets/css/editor-style.css",
+		"/var/www/html/traction_LP/wp-content/themes/traction/assets/css/ie8.css",
+		"/var/www/html/traction_LP/wp-content/themes/traction/assets/css/ie9.css",
+		"/var/www/html/traction_LP/wp-content/themes/traction/functions11.php",
+		"/var/www/html/traction_LP/wp-content/themes/traction/inc/back-compat.php",
+		"/var/www/html/traction_LP/wp-content/themes/traction/inc/color-patterns.php",
+		"/var/www/html/traction_LP/wp-content/themes/traction/inc/custom-header.php",
+		"/var/www/html/traction_LP/wp-content/themes/traction/inc/customizer.php",
+		"/var/www/html/traction_LP/wp-content/themes/traction/inc/icon-functions.php",
+		"/var/www/html/traction_LP/wp-content/themes/traction/inc/template-functions.php",
+		"/var/www/html/traction_LP/wp-content/themes/traction/rtl.css",
+		"/var/www/html/traction_LP/wp-content/themes/traction/searchform.php",
+		"/var/www/html/traction_LP/wp-content/themes/traction/search.php",
+		"/var/www/html/traction_LP/wp-content/themes/traction/single.php",
+		"/var/www/html/traction_LP/wp-content/themes/traction/template-parts/footer/site-info.php",
+		"/var/www/html/traction_LP/wp-content/themes/traction/template-parts/header/site-branding.php",
+		"/var/www/html/traction_LP/wp-content/themes/traction/template-parts/navigation/navigation-top.php",
+		"/var/www/html/traction_LP/wp-content/themes/traction/template-parts/page/content-front-page-panels.php",
+		"/var/www/html/traction_LP/wp-content/themes/traction/template-parts/page/content-front-page.php",
+		"/var/www/html/traction_LP/wp-content/themes/traction/template-parts/page/content-page.php",
+		"/var/www/html/traction_LP/wp-content/themes/traction/template-parts/post/content-audio.php",
+		"/var/www/html/traction_LP/wp-content/themes/traction/template-parts/post/content-excerpt.php",
+		"/var/www/html/traction_LP/wp-content/themes/traction/template-parts/post/content-gallery.php",
+		"/var/www/html/traction_LP/wp-content/themes/traction/template-parts/post/content-image.php",
+		"/var/www/html/traction_LP/wp-content/themes/traction/template-parts/post/content-none.php",
+		"/var/www/html/traction_LP/wp-content/themes/traction/template-parts/post/content-video.php",
+		"/var/www/html/traction_LP/wp-content/themes/traction/index.php",
+		"/var/www/html/traction_LP/wp-content/themes/traction/inc/template-tags.php",
+		"/var/www/html/traction_LP/wp-content/themes/traction/header11.php",
+		"/var/www/html/traction_LP/wp-content/themes/traction/footer.php"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 94.0,
+		"where_history":
+		[
+			"/var/www/html/rebuild-prdxn/wp-content/themes/prdxnrebuild",
+			"<current file>",
+			"/var/www/html/traction_LP/wp-content/themes/traction",
+			"<current file>",
+			"/var/www/html/prdxn-rebuild/wp-content/themes/prdxn_rebuild",
+			"/var/www/html/prdxn-rebuild/",
+			"/var/www/html/rebuild-prdxn/wp-content/themes/prdxnrebuild",
+			"/var/www/html/prdxn-rebuild/wp-content/themes/prdxn_rebuild",
+			"/var/www/html/uptown_stories",
+			"/var/www/html/prdxn-rebuild/wp-content",
+			"/var/www/html/prdxn-rebuild/wp-content/themes/prdxn_rebuild",
+			"/var/www/html/qcoal",
+			"<current file>",
+			"/var/www/html/rebuild-prdxn/wp-content/themes/prdxnrebuild",
+			"<current file>",
+			"/var/www/html/rebuild-prdxn/wp-content/themes/prdxnrebuild",
+			"/var/www/html/prdxn-rebuild/wp-content/themes/prdxn_rebuild",
+			"<current file>",
+			"/var/www/html/uptown_stories",
+			"<current file>",
+			"/var/www/html/rebuild-prdxn/wp-content/themes/prdxnrebuild",
+			"/home/prdxn45/Downloads/themeforest-15019939-alone-charity-multipurpose-nonprofit-wordpress-theme/Alone_Package/alone",
+			"/var/www/html/uptown_stories",
+			"/var/www/html/uptown_stories/wp-content",
+			"/var/www/html/uptown_stories",
+			"<current file>",
+			"/var/www/html/qcoal",
+			"<current file>",
+			"/var/www/html/uptown_stories/wp-content",
+			"/var/www/html/qcoal/wp-content",
+			"/var/www/html/qcoal/wp-content/themes/qcoalf",
+			"<current file>",
+			"/var/www/html/qcoal/wp-content",
+			"<current file>",
+			"/var/www/html/prdxn-rebuild/wp-content/themes/prdxn_rebuild",
+			"/var/www/html/uptown_stories/wp-content",
+			"<current file>",
+			"/var/www/html/uptown_stories/wp-content",
+			"/var/www/html/uptown_stories/wp-content/plugins/events-manager",
+			"/var/www/html/uptown_stories",
+			"/home/prdxn45/Downloads/themeforest-15019939-alone-charity-multipurpose-nonprofit-wordpress-theme/Alone_Package",
+			"/var/www/html/uptown_stories",
+			"/var/www/html/uptown_stories/wp-content",
+			"/var/www/html/uptown_stories",
+			"/var/www/html/uptown_stories/wp-content",
+			"/var/www/html/uptown_stories",
+			"<current file>,/var/www/html/uptown_stories",
+			"<current file>",
+			"/var/www/html/task/wp-content/themes/task",
+			"/var/www/html/wordpress-task/wp-content/themes/wp-task,<current file>",
+			"/var/www/html/magic_reimagined/wp-content/themes/macys",
+			"/var/www/html/wordpress-task/wp-content/themes/wp-task",
+			"/var/www/html/uptown_stories/",
+			"<current file>",
+			"/var/www/html/uptown_stories1/wp-content/themes/alone/,<open folders>",
+			"/var/www/html/uptown_stories1/wp-content/themes/alone/",
+			"/var/www/html/uptown_stories1/wp-content/themes/alone",
+			"/var/www/html/uptown_stories1/",
+			"",
+			"/var/www/html/introduction-js project/Entrevista/app/layouts/default.njk",
+			"/var/www/html/magic_reimagined/wp-content/themes/macys/style.css",
+			"/var/www/html/post-task/wp-content/themes/pradnya/style.css",
+			"/var/www/html/post-task/wp-content/themes/pradnya/functions.php",
+			"/var/www/html/post-task/wp-content/themes/pradnya",
+			"/var/www/html/wordpress/wp-content/themes/pradnya1",
+			"/var/www/html/wordpress/wp-content/themes/pradnya",
+			"/var/www/html/wordpress",
+			"/var/www/html/foyosoul/wp-content/themes/foyosoul",
+			"<current file>",
+			"/var/www/html/assets/css/banner-mayo.css",
+			"/assets/css/banner-mayo.css",
+			"jwtmarkcerv-at-careers-main-5204e463dd27/",
+			"jwtmarkcerv-at-careers-main-5204e463dd27/www/assets/js/app/jobs.js",
+			"/var/www/html/employee-evaluation-tool/packages/",
+			"/var/www/html/employee-evaluation-tool/packages/custom/eet/",
+			"/var/www/html/employee-evaluation-tool/packages/custom/eet/public",
+			"/var/www/html/employee-evaluation-tool/packages/",
+			"/var/www/html/employee-evaluation-tool/packages/custom/",
+			"/var/www/html/employee-evaluation-tool/packages/custom/eet/",
+			"/var/www/html/employee-evaluation-tool/packages/",
+			"/var/www/html/employee-evaluation-tool/packages/custom/",
+			"/var/www/html/employee-evaluation-tool/packages/custom/eet/public/",
+			"/var/www/html/employee-evaluation-tool/packages/custom/eet/public/views",
+			"/var/www/html/employee-evaluation-tool/packages/custom/views",
+			"/var/www/html/employee-evaluation-tool/packages/custom",
+			"/var/www/html/employee-evaluation-tool/",
+			"/var/www/html/employee-evaluation-tool/packages/",
+			"/var/www/html/employee-evaluation-tool/packages/core",
+			"/var/www/html/employee-evaluation-tool/packages",
+			"/var/www/html/employee-evaluation-tool",
+			"/var/www/html/nodetest2/app.js",
+			"/var/www/html/nodetest2/views",
+			"/var/www/html/nodetest2/routes",
+			"/var/www/html/nodetest2/public",
+			"/var/www/html/nodetest2/",
+			"/var/www/html/employee-evaluation-tool/packages/custom/eet/public",
+			"/var/www/html/employee-evaluation-tool/packages/custom/eet/public/views",
+			"/home/prdxn/projects/employee-evaluation-tool/packages/custom/eet/public/views "
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"font-fam",
+			"flex",
+			"breakpoi",
+			" !default",
+			"!default",
+			"navbar ",
+			"paddin",
+			"navbar",
+			"nav-",
+			"nav-default",
+			"navbar",
+			"$nav-link-padding",
+			"navbar",
+			"navbaer",
+			"hori",
+			"10px",
+			"$nav-link-padding",
+			"padd",
+			"padding",
+			"grid",
+			"media",
+			"padding",
+			"navbar",
+			"padding",
+			"15px",
+			"@media",
+			"padd",
+			"  #f5c506;",
+			"6",
+			"navbar",
+			"left",
+			"right",
+			"navba",
+			"#icon",
+			".icon",
+			"d icon",
+			"icon",
+			"include",
+			"quali",
+			"header-video",
+			"icons",
+			"images",
+			";\n",
+			"linear",
+			"menu",
+			"</p",
+			"<p",
+			"contact-wrapper",
+			"none",
+			"</a>",
+			"p>",
+			"workpagethumbnail",
+			"thu",
+			"loadMoreAjax",
+			"loadWorkPosts",
+			"testimonial-content",
+			"enqu",
+			"http://localhost/traction_LP",
+			"site",
+			"TwentySeventeen",
+			"Twenty_Seventeen",
+			"twentyseventeen",
+			"TwentySeventeen",
+			"Twenty-Seventeen",
+			"Twenty-seventeen",
+			"twenty-seventeen",
+			"twenty_seventeen",
+			"Twenty_seventeen",
+			"Twenty_Seventeen",
+			"twentyseventeen",
+			"Twentyseventeen",
+			"Twenty Seventeen",
+			"twentyseventeen",
+			"Twenty_Seventeen",
+			"Twenty_seventeen",
+			"Twentyseventeen",
+			"twenty-seventeen",
+			"twentyseventeen",
+			"get_header",
+			"Twenty_Seventeen",
+			"WordPress",
+			"http://localhost/traction_campaign",
+			"instafeed",
+			"insta",
+			"job-application",
+			"file",
+			"singlework--backbutton",
+			"get_the_content",
+			"wpautop",
+			"the_content",
+			"work_team",
+			"case_study",
+			"works",
+			"work",
+			"team",
+			"taxo",
+			"stickey",
+			"media",
+			"stickey-slider-text",
+			"media",
+			"stickey",
+			"media",
+			"slider",
+			"img",
+			"a>",
+			"a",
+			"img",
+			"launch_project_cta_text",
+			"$launch_project_cta_text",
+			"launch_project_cta_link",
+			"slider_id",
+			"the_title",
+			"the_post_thumbnail",
+			"the_permalink",
+			"scri",
+			"work",
+			"the_content",
+			"casestudydetail",
+			"validateLastName",
+			"validateName",
+			"checkValidationtwopattern",
+			"validateName",
+			".your-name",
+			"loader",
+			"loadposts",
+			"$loadposts",
+			"loadpost",
+			"menu_image_default_sizes"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"",
+			" ",
+			"slider",
+			"qualities",
+			"<b",
+			"http://happynewyear.prdxn.com/staging",
+			"traction",
+			"http://localhost/Traction-LP",
+			"\"",
+			"'",
+			"testimonials",
+			"prdxn-rebuild",
+			"case_study",
+			"work",
+			"dev/resource/",
+			"",
+			"post",
+			"http://staging.qcoalf.qcoalfoundation.org/",
+			"http://localhost/qcoal_manual_wp_upgrade/",
+			"gfdgd",
+			"http://staging.qcoalf.qcoalfoundation.org/",
+			"http://localhost/qcoal-update/",
+			"http://staging.qcoalf.qcoalfoundation.org/",
+			"http://localhost/qcoal/",
+			"prdxn",
+			"http://uptownstories.org",
+			"http://staging.uptownstories.org",
+			"#e4002b !important",
+			"#e4002b",
+			"task",
+			"pradnya",
+			"wp-task",
+			"http://staging.uptownstories.org/dev",
+			"http://localhost/uptown_stories1",
+			"http://localhost/rebuild-prdxn",
+			"{# ",
+			" #}",
+			"#}",
+			"{#",
+			"Arial",
+			"../static_source/img",
+			"pradnya",
+			"products",
+			"testimonials",
+			"movies",
+			"new_option_name",
+			"pradnya",
+			"pradnya1",
+			"pradnya",
+			" pradnya",
+			"pradnya",
+			"http://prdxnstaging.com/trainees/wp_trainees/pradnya/foyosoul",
+			"http://localhost/breakloose_stage/",
+			"",
+			"&gt;",
+			"&lt;",
+			"2s",
+			"2.5s",
+			"2s",
+			"1s",
+			"2s",
+			"3s",
+			"$currentOpt",
+			"$input",
+			"../../../dist/images"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"header",
+				"traction/header.php"
+			],
+			[
+				"hea",
+				"prdxn_rebuild/header.php"
+			],
+			[
+				"",
+				"careers.gm.com/htdocs/README.md"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 275.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

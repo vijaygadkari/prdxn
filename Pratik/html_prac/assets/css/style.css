@@ -1,0 +1,416 @@
+@charset "utf-8";
+
+/*------------------------------------------------------------------
+  [Table of contents]
+  * To keep an overview of structure of your code, we make use of table of 
+  * content. Table of content is use display the overall tree structure of your
+  * Layout. 
+  * (NOTE: Remove this commented code once you start developing the code.
+  * Remove the following table of content and add your own as this is just and 
+  * example to let you know)
+
+  1. CSS Reset Code
+    1.1. Eric Meyers Reset/HTML5 display-role reset for older browsers
+    1.2. Clear Fix
+    1.3. Font class declaration
+  2. Body
+  3. Header / .header
+    2.1. Navigation / .navbar
+  4. Content / .content
+    4.1. Left column / .leftcolumn
+    4.2. Right column / .rightcolumn
+    4.3. Sidebar / .sidebar
+      4.3.1. RSS / .rss
+      4.3.2. Search / .search
+      4.3.3. Boxes / .box
+      4.3.4. Sideblog / .sideblog
+      4.3.5. Advertisements / .ads
+  5. Footer / .footer
+  ------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+  [Color codes]
+  * Mention the color code you have used in your html document for the respective
+  * elements given as follow. 
+  * (NOTE: Remove this commented code once you start developing the code. 
+  * Remove the following color code and add your own as this is just and 
+  * example to let you know)
+
+  Header nav: #e5e5df (Cararra)
+  Header nav a (hover): #fff (white)
+  Header nav a (active): #fff (white)
+-------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+  [Typography]
+  * Mention the Typography you have used in your html document for the respective
+  * elements given as follow.
+  * (NOTE: Remove this commented code once you start developing the code. 
+  * Remove the following typography and add your own as this is just and 
+  * example to let you know)
+
+  Header nav a: 16px 'Futura Bold', 'Gill Sans', Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  View-register li a : 12px 'Futura Bold', 'Gill Sans', Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  -------------------------------------------------------------------*/
+
+/* ==========================================================================
+   1. CSS Reset Code
+   ========================================================================== */
+
+/* 1.1. Eric Meyers Reset
+   http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+   ========================================================================== */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
+blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img,
+ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center,
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody,
+tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure,
+figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* Force scrollbar */
+html { overflow-y: scroll; }
+
+/* Align radios and text inputs with their label */
+
+input[type='radio'] { vertical-align: text-bottom; }
+
+/* Hand cursor on clickable input elements */
+label,
+input[type='button'],
+input[type='submit'],
+button {
+  cursor: pointer;
+}
+
+strong {
+  font-weight: bold;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+em { font-style: italic; }
+
+img {
+  border: 0;
+  vertical-align: middle;
+}
+
+sub,
+sup {
+  vertical-align: baseline;
+  position: relative;
+  font-size: 55%;
+  line-height: 0;
+}
+
+sup { top: -.7em; }
+
+sub { bottom: -.25em; }
+
+/* 1.2. Clear Fix
+   ========================================================================== */
+
+.cf:before,
+.cf:after {
+  display: table;
+  content: " ";
+}
+
+.cf:after { clear: both; }
+
+.cf { *zoom: 1; }
+
+/* 1.3. Font class declaration
+   ========================================================================== */
+/*
+ * Mention the font property (eg: font-family, font-size, font-weight, font-style
+ * etc) that have been commonly used in the html document. Make a class of it and
+ * apply to the element wherever it is needed. If any single property in changed,
+ * then override only that property in the particular class which is used for the
+ * element.
+ * (NOTE: Remove this commented code once you start 
+ * developing the code. Remove the following font class and add your own
+ * as this is just and example to let you know. If there is only one font family
+ * followed throughout the site, then menstion the font property in body. No need
+ * of creating an extra class for it) */
+
+.futura-bold-font {
+  font-family: 'Futura Bold', 'Gill Sans', Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+}
+header{
+background-color: #323232;
+max-width: 1020px;
+margin: 0 auto;
+position: relative;
+}
+
+nav{
+  width: 100%;
+  background-color: #323232;
+  position:absolute;
+}
+
+nav ul{
+  margin: 32px auto 22px;
+  text-align: center;
+  list-style-type: none;
+}
+nav ul li{display: inline-block;}
+nav ul li:nth-child(1){
+margin-right: 30px;
+}
+nav ul li:nth-child(4){
+margin-left: 30px;
+}
+nav ul li:nth-child(2) {
+margin-right: 80px;
+}
+nav ul li:nth-child(3) {
+margin-left: 80px;
+}
+
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 5px;
+  text-align: justify;
+
+}
+
+main{
+margin: 0 auto;position: relative;
+  max-width: 1020px;
+  outline: 1px solid #e4e9eb;
+
+}
+.main_wrapper{padding: 0 20px;}
+.logo{
+  display: block;
+  background: url(../images/logo.png) 50% 0 no-repeat;
+   text-indent: -9999px;
+    z-index: 9999;
+    position: relative;
+    height: 55px;
+    width: 64px;
+    left: 50%;
+    margin-left: -32px;
+    top: 10px;
+ }
+  .hr{
+position: relative;
+  }
+ .nav_hrr{display: inline-block;
+  width: 410px;
+  background-color: #e4e9eb;
+  margin-left: 70px;
+
+ }
+
+ .nav_hrl{
+display: inline-block;
+  margin-right: 70px;
+  width: 410px;
+  background-color: #e4e9eb
+ }
+ .image_wrapper li{
+
+  list-style-type: none;
+  display: inline;
+  margin-right: 20px;
+}
+ .image_wrapper li:last-child{
+  margin-right: 0px;
+}
+
+.count_4{text-align: center;}
+.count_4,.count_5{    margin-bottom: -35px;}
+.count_5 li{margin-right: 16px;}
+footer{
+position: relative;
+  background-color:  #222222;
+max-width: 1020px;
+  padding: 16px 0px 15px;
+margin:  0 auto;
+}
+.footer_text{
+  margin-left: 39px;
+  text-transform: capitalize;
+  width: 100%;
+  text-indent: 40px;
+  font-family: 'Maven Pro', sans-serif;
+  color:  #454545;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 5px;
+  text-align: justify;
+  cursor: hand;
+}
+section{
+  margin: 0;
+}
+.contact-wrapper{
+  
+  width: 100%;
+  padding: 13px 20px 11px;
+  margin-left: -20px;
+  position: relative;
+  width: 100%;
+  background-color:  #323232;
+}
+.contact-main-wrapper{display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+margin-top: 91px;
+}
+.contact-wrapper h3{
+text-transform: capitalize;
+font-family: 'Maven Pro', sans-serif;
+color:  #e0e0e0;
+font-size: 30px;/* Approximation due to font substitution */
+font-weight: 400;
+/*line-height: 5; Approximation due to font substitution */
+text-align: justify;
+}
+.contact-wrapper h5{
+  margin-left: 2px;
+text-transform: capitalize;
+font-family: 'Maven Pro', sans-serif;
+color:  #bebebe;
+font-size: 18px;/* Approximation due to font substitution */
+font-weight: 400;
+/*line-height: 22; Approximation due to font substitution */
+text-align: justify;
+
+}
+
+.contact-wrapper input:focus,.contact-wrapper textarea:focus{
+  color:#2eb398 !important;
+  outline: none;
+}
+.contact-wrapper input{
+
+  padding: 0px 0 0px 14px;
+  background-color:  #454545;
+width: 566px;
+height: 38px;
+border:none;
+margin-bottom: 16px;
+}
+.contact-wrapper textarea{
+    padding: 13px 14px 0 14px;
+    resize: none;
+    background-color: #454545;
+    max-height: 150px;
+    border: none;
+    width: 552px;
+}
+.contact-wrapper input[placeholder],textarea[placeholder]{
+font-family: 'Lato', sans-serif;
+color:  #bebebe;
+font-size: 11px;
+font-weight: 400;
+line-height: 22px;
+text-align: justify;
+transform: scaleY(1.0691);
+}
+.form{margin-top: 20px;}
+.contact-inner-wrapper{
+  margin-right: 20px;
+  margin-left: 120px;
+  position: relative;
+  max-width: 580px;
+}
+.snd-button{
+ -webkit-transition : .3  s all ease-in-out;
+display: block;
+    position: relative;
+    left: 100%;
+    margin-left: -90px;
+background-color:  #2eb398;
+width: 90px;
+height: 37px;
+margin-top: 16px;
+border: none;
+font-family: 'Lato', sans-serif;
+text-transform: uppercase;
+color:  #d7fcf5;
+font-size: 11px;
+font-weight: 700;
+text-align: center;
+margin-bottom: 53px;
+}
+
+.snd-button:hover{
+  
+  transform:scale(0.9);
+}
+
+.contact_details{
+     margin-top: 75px;
+    max-width: 180px;
+
+}
+.contact-wrapper hr{
+  height: 1px;
+  border: none;
+background-color:#2B2B2B;
+
+}
+.contact_details p{
+  word-spacing: 2px;
+font-family: 'Lato', sans-serif;
+color:  #bebebe;
+font-size: 12px;
+font-weight: 400;
+line-height: 22px;
+text-align: justify;
+}
+.contact_list{
+margin-top: 46px;
+list-style-type: none;
+font-family: 'Lato', sans-serif;
+color:  #bebebe;
+font-size: 12px;
+font-weight: 700;
+word-spacing: 2px;
+line-height: 22px;
+text-align: justify;
+}
+.contact_list .fa{
+  color: #2eb398;
+}
+.contact_list a{
+  margin-left: 13px;
+  text-decoration: none;
+font-family: 'Lato', sans-serif;
+color:  #bebebe;
+font-size: 12px;/* Approximation due to font substitution */
+font-weight: 700;
+line-height: 22px;/* Approximation due to font substitution */
+text-align: justify;
+}

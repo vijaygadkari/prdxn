@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+<script type="text/javascript">
+     function countDown(secs,elem){
+      var element = document.getElementById(elem);
+      element.innerHTML =" You will be redirected in "+ secs;
+      secs--;
+      if(secs < 0){
+        clearTimeout(timer);
+        window.open("about.html","google","height=300,width=600,scrollbars=yes");
+        // window.close();
+      }
+      var timer = setTimeout('countDown('+secs+',"'+elem+'")',1000);
+
+      }
+</script>
+</head>
+<body>
+<span id="secs"></span>
+</body>
+<script type="text/javascript">countDown(5,"secs");</script>
+</html>
+

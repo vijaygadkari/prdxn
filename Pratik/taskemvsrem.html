@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>EM vs REM</title>
+  <style type="text/css">
+
+  * {
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  }
+  :root {
+    font-size: 24px;
+  }
+
+  @media(max-width: 400px) {
+    :root {
+      font-size: 12px;
+    }
+  }
+    @media(min-width: 600px and max-width:750px) {
+    :root {
+      font-size: 18px;
+    }
+  }
+
+  body {
+    max-width: 40rem;
+    margin: 50px auto;
+    padding: 1rem;
+  }
+
+  h1 {
+    /*font-size: 3rem;*/
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .button {
+    font-size: 1rem;
+    text-decoration: none;
+    color: #666;
+    font-weight: bold;
+    display: inline-block;
+    border: 0.0625em solid #ccc;
+    border-radius: 0.1875em;
+    padding: 0.6em 1.2em;
+  }
+
+  .button:hover {
+    border-color: #999;
+  }
+.parent{font-size: 1rem;
+}
+
+
+  </style>
+
+</head>
+
+<body>
+<div class="parent">
+<h1>This is some cool text to work with so that it will be easy to learn about css units </h1>
+</div>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+<p class="button">Click</p>
+
+</body>
+</html>

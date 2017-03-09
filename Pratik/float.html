@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <style type="text/css">
+  html {
+  font-size: 16px;
+}
+
+body {
+  background-color: #fff;
+  color: #fff;
+  font-family: sans-serif;
+  padding: 25px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: 800;
+  color: #fff;
+}
+
+.wrapper{
+  padding: 15px 50px;
+  background: #333;
+  margin:10px 0;
+}
+div {
+  margin: 15px 0;
+}
+
+
+/*.padding {
+  padding: 1px 0;
+}*/
+
+.red {
+  background-color: #ff6b6b;
+}
+
+.orange {
+  background-color: #ff9e2c;
+}
+
+.yellow {
+  background-color: #eeee78;
+}
+
+.green {
+  background-color: #4ecd9d;
+}
+
+.blue {
+  background-color: #4e97cd;
+}
+
+.purple {
+  background-color: #6c4ecd;
+}
+
+.parent{
+  /*overflow: auto;*/
+  outline: 3px solid #6c4ecd;
+  margin:0;
+  }
+  .para{
+    float: left;
+    height: 100px;
+    width:94px;
+    margin-left: 10px;
+    background-color: tomato; 
+  }
+  .clear-left{
+    clear: left;
+  }
+  .clear-right
+  {
+    clear: right;
+  }
+  .clear-both{
+    clear: both;
+  }
+
+  </style>
+
+</head>
+<body>
+
+<section class="wrapper">
+<h1>Collapsing Child Margins</h1>
+<div class="red">
+  <div class="orange">
+    <div class="yellow">
+      <div class="green">
+        <div class="blue">
+          <div class="purple">Collapsed</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="padding red">
+  <div class="padding orange">
+    <div class="padding yellow">
+      <div class="padding green">
+        <div class="padding blue">
+          <div class="padding purple">Not Collapsed</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<section class="wrapper ">
+  <h1>Working with floats</h1>
+  <div class="parent clear-left">
+    <P class="para"></P>
+    <P class="para"></P>
+    <P class="para"></P>
+    <P class="para"></P>
+    <P class="para"></P>
+    <P class="para"></P>
+    <P class="para"></P>
+    <P class="para"></P>
+    <P class="para"></P>
+    <P class="para"></P>
+    <P class="para"></P>
+    <P class="para clear-left"></P>
+    </div>
+     <P class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque consectetur eos et laborum quisquam nulla vero veniam hic soluta in voluptas sed non, ut alias fugit facere doloribus itaque, laudantium.</P>
+</section>
+
+
+</body>
+</html>

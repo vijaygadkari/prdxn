@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Accordian</title>
+  <style type="text/css">
+    body{
+     background-color: #eee;
+   }
+   .container{
+     
+    width: 250px;
+    margin:  0 auto;
+  }
+
+  .container > ul{
+    padding: 0;
+    list-style: none;
+  }
+
+
+  .dem > ul{
+    line-height: 25px;
+    text-indent: 10px;
+    text-transform: capitalize; 
+    padding: 0; margin: 0;
+  }
+  .dem > label{
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid #eee; 
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-indent: 30px;
+    font-size: 1.1em;
+    background-color: #999;color: #fff;
+  }
+
+  .dem input:checked + label,.dem>label:hover{
+
+    background-color: tomato;
+  }
+  .dem input:checked ~ ul{
+    /*height: auto;*/
+    max-height: 200px;
+
+  }
+
+  /*.dem ul>li{animation: shake .5s;}*/
+  
+  /*.dem input:checked ~ ul >li{animation: shake .7s;}*/
+  /*.dem input:not(:checked) ~ ul >li{animation: fade .3s;}*/
+  .dem input{
+    display: none;
+  }
+  .dem  ul
+  { transition: .5s all linear;
+    max-height: 0;
+    overflow: hidden;
+  }
+  .dem> ul > li:last-child{
+   border: none; 
+ }
+ .dem > ul > li{
+  text-align: left;
+  list-style-type: none;
+  width: 100%;
+  border-bottom:  2px dotted #111;
+  background-color: #fff;
+}
+.dem:last-child ul > li:last-child{
+ border-bottom: 1px solid #111; 
+}
+@keyframes shake{
+  0%{transform:translateY(0px);}
+  33%{transform:translateY(-45px);}
+  66%{transform:translateY(90px);}
+  
+  100%{transform:translateY(-45px);}
+}
+
+
+</style>
+</head>
+<body>
+  <div class="container">
+    <ul>
+      <li class="dem">
+
+        <input type="checkbox" id="item0" checked>
+        <label class="mitem" for="item0">section 1</label>
+        <ul>
+          <li>item 1</li>
+          <li>item 2</li>
+          <li>item 3</li>
+        </ul>
+      </li>
+      
+      <li class="dem">
+
+        <input type="checkbox" id="item1">
+        <label class="mitem" for="item1">section 2</label>
+        <ul>
+          <li>item 1</li>
+          <li>item 2</li>
+          <li>item 3</li>
+        </ul>
+      </li>
+      
+      <li class="dem">
+
+        <input type="checkbox" id="item2">
+        <label class="mitem" for="item2">section 3</label>
+        <ul>
+          <li>item 1</li>
+          <li>item 2</li>
+          <li>item 3</li>
+        </ul>
+      </li>
+
+      
+    </ul>
+  </div>
+
+</body>
+</html>
